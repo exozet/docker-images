@@ -1,16 +1,17 @@
 # docker images at exozet
 
-At exozet we use gitlab ci, drone or other docker based tools for CI/CD.
-Sometimes we need images and don't want to rely on custom builds for projects.
-Sometimes we don't know which is the official image or the official image only has latest tags.
-To avoid this, we create small Dockerfiles (usually based on alpine) for those images.
-For official images with too many updates, we maintain a whitelist.
+- At exozet we use **gitlab ci**, drone or other docker based tools **for CI/CD**.
+- Sometimes we need images and **don't want** to rely on **custom builds for every projects**.
+- Sometimes we **don't know** which is the **official image** or the official image **only** has **latest tags**.
+- To avoid this, we **create small Dockerfiles** (usually based on **alpine**) for those images.
+- For **official images** with too many updates, we maintain a **whitelist**.
 
 ## Our Images
 
-To avoid depending on lots of good (but not exozet maintained) docker images, we are hosting auto build images on docker hub.
-If we want to make a new version available there, you need to do only one step: add a new tag with the version number.
-Minutes later the image will be available as exozet/product:version on docker hub.
+To avoid depending on lots of good (but not exozet maintained) docker images, we are **hosting auto build images** on **docker hub**.
+If we want to make a **new version** available there, you need to do only **one step**: **add a new tag** with the **version number**.
+Minutes later the image will be available as **exozet/product:version** on docker hub. By design they have an **entrypoint set to `sh -c`** to make it **easy** to use them in **gitlab ci jobs**.
+
 
 The following images are available:
 
