@@ -20,6 +20,7 @@ The following images are available:
 * [exozet/curl](https://hub.docker.com/r/exozet/curl) // *[source](https://github.com/exozet/docker-curl)*
 * [exozet/kubectl](https://hub.docker.com/r/exozet/kubectl) // *[source](https://github.com/exozet/docker-kubectl)*
 * [exozet/goss](https://hub.docker.com/r/exozet/goss) // *[source](https://github.com/exozet/docker-goss)*
+* [exozet/jq](https://hub.docker.com/r/exozet/jq) // *[source](https://github.com/exozet/docker-jq)*
 
 ## Whitelist
 
