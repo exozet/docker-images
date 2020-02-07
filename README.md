@@ -15,12 +15,12 @@ Minutes later the image will be available as **exozet/product:version** on docke
 
 The following images are available:
 
-* [exozet/php-fpm](https://hub.docker.com/r/exozet/php-fpm) // *[source](https://github.com/exozet/docker-php-fpm)*
-* [exozet/helm](https://hub.docker.com/r/exozet/helm) // *[source](https://github.com/exozet/docker-helm)*
-* [exozet/curl](https://hub.docker.com/r/exozet/curl) // *[source](https://github.com/exozet/docker-curl)*
-* [exozet/kubectl](https://hub.docker.com/r/exozet/kubectl) // *[source](https://github.com/exozet/docker-kubectl)*
-* [exozet/goss](https://hub.docker.com/r/exozet/goss) // *[source](https://github.com/exozet/docker-goss)*
-* [exozet/jq](https://hub.docker.com/r/exozet/jq) // *[source](https://github.com/exozet/docker-jq)*
+* [exozet/php-fpm](https://hub.docker.com/r/exozet/php-fpm) // *[source](https://github.com/exozet/docker-php-fpm)* (lots of necessary php extensions and configuration with environment variables)
+* [exozet/helm](https://hub.docker.com/r/exozet/helm) // *[source](https://github.com/exozet/docker-helm)* (curl+helm)
+* [exozet/curl](https://hub.docker.com/r/exozet/curl) // *[source](https://github.com/exozet/docker-curl)* (curl)
+* [exozet/kubectl](https://hub.docker.com/r/exozet/kubectl) // *[source](https://github.com/exozet/docker-kubectl)* (curl+kubectl)
+* [exozet/goss](https://hub.docker.com/r/exozet/goss) // *[source](https://github.com/exozet/docker-goss)* (curl+goss)
+* [exozet/jq](https://hub.docker.com/r/exozet/jq) // *[source](https://github.com/exozet/docker-jq)* (curl+jq)
 
 ## Whitelist
 
